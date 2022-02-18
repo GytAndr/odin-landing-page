@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+html {
+  font-family: Roboto, sans-serif;
+}
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #1f2937;
+  height: 200px;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  gap: 24px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.logo {
+  display: flex;
+  align-items: flex-start;
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 18px 0;
+}
+.hero-top {
+  background: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.header,
+.hero-top,
+.hero-bottom,
+.quote,
+footer {
+  padding: 0 13%;
+}
+.top-title {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.top-title p {
+  font-size: 18px;
+}
+.top-title,
+footer {
+  color: #f9faf8;
+}
+.top-left {
+  width: 50%;
+}
+.top-left p,
+.top-right p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.top-right {
+  background: hsl(220, 13%, 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  height: 215px;
+}
+button {
+  background: #3882f6;
+  color: #e5e7eb;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: larger;
+}
+.hero-bottom {
+  text-align: center;
+  height: 350px;
+}
+.hero-bottom-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.bottom-title {
+  padding: 24px;
+}
+.placeholder {
+  border: #3882f6 solid 3px;
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+.quote {
+  background: #e5e7eb;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote-wrap {
+  width: 55%;
+}
+#quote {
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+#quote-sign {
+  font-weight: bold;
+  text-align: end;
+  color: #1f2937;
+}
+.signup-section {
+  background: #3882f6;
+  margin: 80px 10%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+.signup-section button {
+  border: #f9faf8 solid 2px;
+}
+.right-text h2 {
+  color: #f9faf8;
+  font-weight: 700;
+  margin: 0;
+}
+.right-text p {
+  color: #f9faf8;
+  margin: 5px 0;
+}
+footer {
+  background: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  word-spacing: 5px;
+}
